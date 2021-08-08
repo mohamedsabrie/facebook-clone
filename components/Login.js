@@ -3,8 +3,8 @@ import { signIn } from "next-auth/client";
 
 function Login() {
   return (
-    <div className="grid place-items-center h-screen">
-      <div className=" p-20 border shadow-lg">
+    <div className="grid place-items-center  h-screen">
+      <div className=" p-20 border shadow-lg flex flex-col items-center justify-center">
         <Image
           src="/facebook_logo.png"
           height={150}
